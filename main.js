@@ -29,7 +29,9 @@ do{
     
     
     if (seleccion == 1){
-        console.log(`alterar, no sé que se refiere con la lectura de datos`);
+        let nombre = prompt(`Ingrese su nombre:`)
+        let edad = prompt(`Ingrese su edad: `)
+        alert(`La lectura de los datos ingresados arroja que su nombre es ${nombre} y su edad es de ${edad} años`)
         
     }
     else if (seleccion == 2){
